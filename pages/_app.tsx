@@ -1,7 +1,7 @@
 import "../styles/globals.css"
 import {ThemeProvider} from "@mui/material"
 import {theme} from "../themes/default.theme"
-import createEmotionCache from "../utils/createEmotionCache"
+import createEmotionCache from "../cache/createEmotionCache"
 import {CacheProvider, EmotionCache} from "@emotion/react"
 import type {AppProps} from 'next/app'
 
